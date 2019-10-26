@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Programme : accueil.html
+Auteur : Sinan DAROUKH et Fabien SIMONET 
+Date : 08/09/2016
+Finalité : Site web concernant le jeu Zelda-->
+
+<!-- PAGE D'ACCUEIL -->
+
+	<head>
+	
+	 	<meta charset="utf-8">
+		<link rel="stylesheet" href="presentation.css" media="screen"/> <!-- Pour tout le monde -->
+		<link rel="icon" href="./Images/favicon.ico"/>
+		<link rel="stylesheet" href="impression.css" media="print"/>
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="presentation_mini.css" />
+		<style type ="text/css"> 
+		body {
+			background-image : url("./Images/Background/background3.jpg");
+			}
+		@media all and (max-width: 800px) {
+			body {
+				background-image : url("./Images/Background/backgroundmini1.jpg");
+				}
+		}
+		</style>
+	 	<title>La Gazette d'Hyrule</title>
+	 	
+	</head>
+	
+	<body>
+	
+		<header class="boite"> 
+			<img id="imageGazette" src="./Images/anim_marrante.gif" alt="image titre de la gazette"/><br/> 
+			<h1>La Gazette d&apos;Hyrule</h1>
+		</header>
+		
+		<div class="menu">
+			<ul id="menuDeroulant">
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="#">Articles</a>
+					<ul>
+						<li><a href="partie1Articles.html">Saga The Legend of Zelda</a></li>
+						<li><a href="partie2Articles.html">Le monde de Zelda</a></li>
+					</ul>
+				</li>
+				<li><a href="#">M&eacute;dias</a>
+					<ul>
+						<li><a href="gallerieImages.html">Photos</a></li>
+						<li><a href="videos.html">Vid&eacute;os</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contact</a>
+					<ul>
+						<li><a href="nouscontacter.html">Nous contacter</a></li>
+						<li><a href="reseauxSociaux.html">R&eacute;seaux sociaux</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+
+		<section class="blocGauche">					
+
+			<h2> <u>The Legend of Zelda - Breath of the The Wild (08/09/2016)</u>
+				<br/>
+				<br/>
+				<img id="imageTitre" alt="image titre de l&apos;article" src="./Images/zelban.jpg" />
+			</h2>
+		
+			<h4>Introduction</h4>
+			
+			<p>
+				The Legend of Zelda : Breath of the Wild est un jeu en développement prévu pour mars 2017 sur Wii U et NX. Il s'agira du 19ème jeu officiel de la série. Il s'agit du troisième jeu sortant sur Wii U (mais le seul nouveau Zelda sur cette console, les deux autres étant des remakes) et du premier à sortir sur NX
+			</p>
+			
+			<h4>Histoire</h4>
+		
+			<p>
+				L'histoire telle que Nintendo l'a révélée au cours de l'E3 2016 indique que Link se réveille au début du jeu après un long sommeil d'une centaine d'années. Il se réveille dans une « Chambre de Résurrection », car une voix de femme l'appelle : cette voix va le guider en dehors de cette fameuse chambre de résurrection, et c'est alors que va commencer cette nouvelle aventure dans un Hyrule largement dévasté. 
+			</p>
+			
+			<img class="imageArticle" src="./Images/zelimg.jpg" alt="image illustrative"/> 
+			
+			<p>
+				Pour l'instant, la rumeur la plus culte dit que l'histoire se situerait après les événements de The Wind Waker (et par conséquent, les événements de Phantom Hourglass). Il semble évident car le peuple Korogu, qui sont en théorie l'évolution des Kokiris, est présent dans ce jeu, il est possible pour Link de trouver des Sels de Gemme, qui sont :
+			</p>
+
+			<p>
+				" des morceaux de sels cristallisés provenant de l’ancienne grande mer "
+			</p>
+			
+			<p>
+				Cette citation nous donne encore plus l'impression qu'il s'agissait de la Grande Mer qui avait jadis, submergé Hyrule.
+			</p>
+			
+			<img class="imageArticle" src="./Images/zelimg1.jpg" alt="image illustrative"/> 
+			
+			<p>
+				Seulement, cette théorie est stoppée grâce à l'idée vue dans la démonstration du jeu, il est possible de voir un énorme rocher flotter dans le ciel, il est fort probable que ce rocher soit celui de la Statue de la Déesse. Il est également possible que toute la chronologie, que le Héros du mal perdent face aux forces du mal ou non, se rejoigne en un seul et unique point dans cet opus. Si nous prenons en compte celle-ci, cela faciliterai beaucoup la création des prochains titres de la série qui donneraient plus de cohérence à l'ensemble. 
+			</p>
+			
+			<img class="imageArticle" src="./Images/zelimg2.jpg" alt="image illustrative"/> <br/>	
+			
+			<div id="sources">
+				<h2>Sources</h2>
+				
+				<p>
+					<strong>ZELDA WIKIA.</strong> <i>The Legend of Zelda : Twilight Princess</i> <br/>
+					<a href="http://zelda.wikia.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild">http://zelda.wikia.com/wiki/The_Legend_of_Zelda:_Breath_of_the_Wild</a>
+				</p>
+
+			</div>
+			
+			<div class="voirPlus">
+				<img class="retourAccueil" src="./Images/triicone.gif" alt="Link anim&eacute;"/><a href="./accueil.html" >Retour à la première page de la gazette</a><img class="retourAccueil" src="./Images/triicone.gif" alt="Link anim&eacute;"/> 
+			</div>		
+		</section> <br/> <br/>
+	
+		<div id="conteneurReseauxSociaux">
+				<div class="sousconteneur">
+					<a href="https://fr-fr.facebook.com/LegendofZeldaFrance/"> 
+						<img class="logoReseauxSociaux" src="./Images/facebook.png" alt="logo facebook"/>
+						<img class="logoReseauxSociauxEntier" src="./Images/facebookentier.jpg" alt="logo facebook entier"/>
+					</a>
+				</div> 
+
+			<div class="sousconteneur">
+				<a href="https://twitter.com/zeldauniverse?lang=fr">
+					<img class="logoReseauxSociaux" src="./Images/twitter.png" alt="logo twitter"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/twitterentier.png" alt="logo twitter entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://www.youtube.com/user/Nintendo">
+					<img class="logoReseauxSociaux" src="./Images/youtube.png" alt="logo youtube"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/youtubeentier.jpg" alt="logo youtube entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://plus.google.com/communities/113066832372633650130">
+					<img class="logoReseauxSociaux" src="./Images/googleplus.jpg" alt="logo google+"/>		
+					<img class="logoReseauxSociauxEntier" src="./Images/googleplusentier.jpg" alt="logo google+ entier"/>				
+				</a>
+			</div>
+		</div>
+	
+		<footer>
+			<img class="imageFooter" src="./Images/footer/footer3.png" alt="image du bas de page"/>
+			Site web r&eacute;alis&eacute; par Sinan DAROUKH et Fabien SIMONET : Groupe 3.
+			<img class="imageFooter" src="./Images/footer/footer3.png" alt="image du bas de page"/>
+		</footer>
+		<br/><br/>
+
+		
+	</body>
+	
+</html>

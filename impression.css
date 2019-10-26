@@ -1,0 +1,225 @@
+/* Feuille CSS dedie a l impression du site web Zelda */
+
+/* Mise en page de l'entete */
+header {
+	display : none;}
+}
+
+/* Mise en page du centre */
+main {
+	display: flex;
+	/*background-color: yellow; */
+	flex-wrap: column;
+	align-items: flex-start;
+
+}
+
+/* Mise en page du bas de page */
+footer 
+{
+	display : none;
+}
+
+.imageFooter {
+	height: 100px;
+}
+
+/* Mise en page des conteneurs */
+
+#conteneurSection{
+	display:flex;
+	justify-content: space-around;
+	flex-direction: column;
+	width: 75%;
+	/*background-color: yellow;*/
+}
+
+/* Mise en page du bloc central */
+
+.blocCentral {
+	display: flex;
+	flex-direction: column;
+	background-color: rgba(255, 255, 255, 0.8);
+	padding : 2% 5% 2% 5%;
+	margin: auto;
+	width: 82%;
+	border-radius : 15px;
+}
+
+/* Mise en page des articles */
+article {
+	/*display:inline-block;*/
+	display: flex;
+	flex-direction : column;
+	border : 5px solid green;
+	border-radius : 15px;
+	padding : 0% 5% 0% 5%;
+}
+
+/* Mise en page des titres */
+h1 {
+	text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+	color: red;
+	font-size: 50px;
+	font-family: "Triforce", arial;
+}
+
+h2 {
+	text-align: center;
+	font-size: 30px;
+	color: green;
+	
+}
+
+h3 {
+	text-align: center;
+	color : green;
+}
+
+h4 {
+	color : green;
+}
+
+/* Mise en page des paragraphes */
+p {
+	color: black;
+	text-align : justify;
+}
+
+/*.debut {
+	position : relative;
+	top : 350px;
+}*/
+
+/* Mise en forme du tableau */
+
+table {
+	border : 3px solid green;
+	border-collapse : collapse;
+	text-align : center;
+	margin : auto;
+	
+}
+
+th, td {
+	border-top : 3px solid green;
+	border-bottom : 3px solid green;
+	border-right : 3px dashed green;
+}
+
+thead {
+	background-color : green;
+	color : white;
+}
+
+.date {
+	color : green;
+}
+
+.imgTableau {
+	width : 100px;
+	height : 140px;
+}
+
+/* Mise en page des images miniatures contenues dans le résumé des articles */ 
+   
+/* Mise en page des images titres des articles */
+
+#imageTitre
+{
+	width : 40%;
+	opacity: 1;
+}
+ 
+/* Mise en page de l'image titre du site */
+
+#imageGazette
+{
+	width : 20%;
+	border : 1px solid green;
+	border-radius: 55px;
+}
+
+.imageArticle {
+	width : 30%;
+	margin :auto;
+}
+ 
+/* boite blanche transparente
+.boite
+{
+	background-color : white;
+	opacity : 0.8;
+	padding : 5% 10% 5% 10%;
+	margin : 3% 5% 3% 5% ; haut-droite-bas-gauche
+	
+}
+*/
+
+/* Mise en page de la gallerie photo */
+
+.conteneurPhoto {
+	width : 100%;
+	padding : 0px 0px 0px 0px;
+	margin : 0px 0px 0px 0px;
+}
+
+.imageGallerie {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 10px;	
+}
+
+.legendeGrandePhoto {
+	text-align : center;
+	font-size : 17pt;
+	color : green;
+}
+
+figure {
+	display : inline-block;
+	margin : auto;
+}
+
+a figcaption {
+	display : none;
+}
+
+/* Bandeau des réseaux sociaux */
+
+#conteneurReseauxSociaux {
+	display : none;
+}
+
+.sousconteneur:hover .logoReseauxSociauxEntier{
+	height: 40px;
+	width : 80px;
+	display : none;
+	border-radius : 5px;
+}
+
+/* Images des reseaux sociaux (dans la rubrique reseaux sociaux) */
+
+.imageReseauxSociaux {
+	height : 0px;
+}
+
+/* Sources */
+
+#sources p {
+	font-size : 13pt;
+}
+
+/* Retour à l'accueil */
+
+.retourAccueil {
+	display : none;
+}
+
+/* MENU DU SITE*/
+
+/* partie positionnement et déco */
+#menuDeroulant { /* concernant les liens des entetes du menu (Accueil, media etc) */
+	display: none; 
+}

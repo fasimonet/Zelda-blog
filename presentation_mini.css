@@ -1,0 +1,472 @@
+/*
+--------------------------------------------------------------------
+MISE EN PLACE DU MEDIA QUERRY POUR ECRAN DE 800px DE LARGEUR OU MOINS
+--------------------------------------------------------------------
+*/
+
+
+/* Mise en page du corps de la page */
+
+	body {
+		/*background-image : url("./Images/background2.jpeg"); */
+		background-size : 100% 100%;
+		background-attachment : fixed;
+		background-repeat:no-repeat;
+		margin : 0% 0% 0% 0%;
+	}
+
+	/* Mise en page de l'entete */
+	header {
+		text-align : center;
+		background-color: rgba(255, 255, 255, 0.8);
+		/*margin-bottom: 20%;*/
+		margin : 3% 30% 20% 30%;
+		padding: 1%;
+		/*width: 100%;*/
+		border-radius: 55px;
+	}
+
+	/* Mise en page du centre */
+	main {
+		display: flex;
+		/*background-color: green;*/
+		flex-direction: column;
+		align-items: flex-start;
+		justify-content: space-between;
+
+	}
+
+	/* Mise en page du bas de page */
+	footer 
+	{
+		border-radius: 10px;
+		padding : 1% 1% 1% 1%;
+		margin : 0% 4% 0% 4%;
+		background-color: rgba(255,255,255,0.8);
+		text-align: center;
+	}
+
+	.imageFooter {
+		height: 20px;
+	}
+
+	/* Mise en page des conteneurs */
+
+	#conteneurSection{
+		display:flex;
+		justify-content: space-around;
+		flex-direction: column;
+		width: 90%;
+		margin: 5% 5% 5% 5%;
+		/*background-color: yellow;*/
+	}
+
+	#conteneurAside{
+		display: flex;
+		align-self: stretch;
+		justify-content: space-around;
+		flex-direction: column;
+		width: 90%;
+		margin: 5% 	5% 5% 5%;
+		/*background-color: red;*/
+	}
+
+	/* Mise en page des asides */
+
+	.aside1 {
+		/*float : right;*/
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		height : 400px;
+		background-color : rgba(255, 255, 255, 0.8);		
+		border-radius: 15px;	
+		padding-bottom: 5%;
+		margin: 10% 5% 5% 5%;
+	}
+
+	.aside2 {
+		/*float : right;*/	
+		height : 50%;
+		background-color : rgba(255, 255, 255, 0.8);
+		border-radius: 15px;
+		margin: 5% 	5% 5% 5%;
+	}
+
+	/* Mise en page du bloc de gauche */
+	.blocGauche
+	{	
+		display: flex;
+		flex-direction: column;
+		background-color: rgba(255, 255, 255, 0.8);
+		padding : 2% 5% 5% 5%;
+		padding-bottom: 10%;
+		margin: 1% 1% 1% 1%;
+		border-radius : 15px;
+	}
+
+	/* Mise en page du bloc central */
+
+	.blocCentral {
+		display: flex;
+		flex-direction: column;
+		background-color: rgba(255, 255, 255, 0.8);
+		padding : 2% 5% 2% 5%;
+		margin: auto;
+		width: 82%;
+		border-radius : 15px;
+	}
+
+	/* Mise en page des articles */
+	article {
+		/*display:inline-block;*/
+		display: flex;
+		flex-direction : column;
+		border : 5px solid green;
+		border-radius : 15px;
+		padding : 0% 5% 0% 5%;
+	}
+	
+	audio {
+		height: 100%;
+		width: 95%;
+		margin: 5% 5% 5% 5%;
+	}
+	
+	/* Mise en page des titres */
+	h1 {
+		text-shadow: 0px 0px 15px rgba(0, 0, 0, 0.75);
+		color: red;
+		font-size: 20px;
+		font-family: "Triforce", arial;
+	}
+
+	h2 {
+		text-align: center;
+		font-size: 30px;
+		color: green;
+		
+	}
+
+	h3 {
+		text-align: center;
+		color : green;
+	}
+
+	h4 {
+		color : white;
+		background-color : green;
+		margin-top : 0;
+	}
+
+	/* Mise en page des paragraphes */
+	p {
+		color: black;
+		text-align : justify;
+	}
+
+	/*.debut {
+		position : relative;
+		top : 350px;
+	}*/
+
+	/* Mise en forme du tableau */
+
+	table {
+		border : 3px solid green;
+		border-collapse : collapse;
+		text-align : center;
+		margin : auto;
+		
+	}
+
+	th, td {
+		border-top : 3px solid green;
+		border-bottom : 3px solid green;
+		border-right : 3px dashed green;
+	}
+
+	thead {
+		background-color : green;
+		color : white;
+	}
+
+	.date {
+		background-color : green;
+		color : white;
+	}
+
+	.imgTableau {
+		width : 100px;
+		height : 140px;
+	}
+
+	/* Images en grand */
+
+	figure .imageGrande {
+		width : 100%;
+		display : block;
+	}
+
+	/* Retour à la gallerie */
+
+	.retour {
+		color : grey;
+		text-decoration : none;
+		font-weight: bold;
+	}
+
+	.retour:hover {
+		color : green;
+	}
+
+	/* Mise en page des images miniatures contenues dans le résumé des articles */ 
+
+	.resumeArticle
+	{
+		width : 8em;
+		float:left;
+		margin-right:1em;
+	}
+	   
+	/* Mise en page des images titres des articles */
+
+	#imageTitre
+	{
+		width : 60%;
+		margin: auto;
+		opacity: 1;
+	}
+	 
+	/* Mise en page de l'image titre du site */
+
+	#imageGazette
+	{
+		width : 60%;
+		border : 1px solid green;
+		border-radius: 55px;
+	}
+	 
+	/* boite blanche transparente
+	.boite
+	{
+		background-color : white;
+		opacity : 0.8;
+		padding : 5% 10% 5% 10%;
+		margin : 3% 5% 3% 5% ; haut-droite-bas-gauche
+		
+	}
+	*/
+
+	/* Mise en page de la gallerie photo */
+
+	.conteneurPhoto {
+		width : 100%;
+		border : 1px solid green;
+		padding : 0px 0px 0px 0px;
+		margin : 0px 0px 0px 0px;
+	}
+
+	.imageGallerie {
+		position: relative;
+		width: 200px;
+		height: 200px;
+		border-radius: 10px;	
+	}
+
+	.legendeGrandePhoto {
+		text-align : center;
+		font-size : 17pt;
+		color : green;
+	}
+
+	figure {
+		display : inline-block;
+		margin : auto;
+	}
+
+	a figcaption {
+		display : none;
+	}
+
+	a figure:hover figcaption {
+		display : block;
+		color : green;
+		text-align : center;
+	}
+
+
+
+	/* Mise en forme de la video */
+
+	.blocVideo {
+		width : 100%;
+		border : 1px solid green;
+		padding: 0;
+		margin : 0;
+	}
+
+	.blocVideo p {
+		position : relative;
+		top : 10px;
+		width : 66%;
+		background-color : green;
+		padding : 0;
+		margin : 0;
+	}
+
+	.blocVideo video {
+		position : relative;
+		left : 67%;
+		width : 33%;
+		padding : 0;
+		margin : 0;
+	}
+
+	/* Bandeau des réseaux sociaux */
+
+	#conteneurReseauxSociaux {
+		position : fixed;
+		top : 35%;
+		z-index : 1000;
+	}
+
+	.logoReseauxSociaux {
+		width : 30px;
+	}
+
+	.logoReseauxSociauxEntier{
+		display : none;
+	}
+
+	.sousconteneur:hover .logoReseauxSociauxEntier{
+		height: 30px;
+		width : 80px;
+		display : inline-block;
+		border-radius : 5px;
+	}
+
+	/* Images des reseaux sociaux (dans la rubrique reseaux sociaux) */
+
+	.imageReseauxSociaux {
+		height : 50px;
+	}
+
+	.conteneurImagesReseauxSociaux {
+		text-align : center;
+	}
+
+	/* Sources */
+
+	#sources p {
+		font-size : 13pt;
+	}
+
+	/* Retour à l'accueil */
+
+	.retourAccueil {
+		width : 20%;
+	}
+
+	/* Voir plus d'articles */
+
+	.voirPlus {
+		text-decoration: none;
+		/*display : block;*/
+		color : grey;
+		font-weight: bold;
+	}
+
+	.voirPlus:hover {
+		color : green;
+	}
+
+	/*
+	.saga_Zelda
+	{
+		background-color : white;
+		opacity : 0.8;
+		padding : 2% 5% 2% 5%;
+		margin-left: 4%;
+		width : 50%;
+	}
+
+	.monde_Zelda
+	{
+		background-color : white;
+		opacity : 0.8;
+		padding : 2% 5% 2% 5%;
+		margin-left: 4%;
+		width: 50%;
+	}
+	*/
+	/* MENU DU SITE*/
+
+	.menu {
+		justify-content: center;	/* hauteur fixe */
+		width : 50px;
+		height: 200px;
+	}
+
+	/* partie positionnement et déco */
+	#menuDeroulant a { /* concernant les liens des entetes du menu (Accueil, media etc) */
+		display: flex;
+		flex-direction: column;
+		color: white; 
+		text-decoration:none; /* On enleve la decoration des liens par defaut */
+	}
+
+	#menuDeroulant > li, 
+	#menuDeroulant > li li { /* concernant les elements du menu */
+		position: relative;
+		display: inline-block; /* element en ligne qui se comporte comme un bloc */
+		width: 80px; /* on fixe une largeur */
+		z-index:200; /* pour que le menu passe devant toutes les autres div */
+		padding: 7px 15px 7px 15px; /* marges interieures */
+		background-image: linear-gradient(green, rgb(0, 200, 0) 50%, rgb(0, 180, 0) 50%, green); /* aspect des elements du menu */
+	}
+	#menuDeroulant > li li { background: transparent none; } /* on ne met pas de background aux sous elements du menu (le fond ne sera donc pas vert mais transparent) */
+
+	/* concernant les liens des sous elements du menu */
+	#menuDeroulant > li li a { 
+			color: black;
+		} /* on met la couleur de la police des sous elements  */
+
+	/* lorsque l'on survole les sous elements d'une liste */
+	#menuDeroulant > li li:hover { background:rgb(200,200,200); } /* changement de la couleur du background*/
+
+	/* concernant les entetes du menu  */
+	#menuDeroulant > li {
+		border-radius: 8px 0 0 8px; /* on arrondit les bords haut gauche et haut droit de la boite */
+		box-shadow: 5px -4px 2px 1px rgba(0, 0, 0, 0.2);
+		z-index: 200;
+	}
+
+	/* lorsque l'on survole une entete du menu */
+	#menuDeroulant > li:hover {
+		background: linear-gradient(green, rgb(0, 240, 0) 50%, rgb(0, 220, 0) 50%, green);	/* le background est modifié */
+	}
+	/* (presque) fin de la partie positionnement/déco */
+	/* dans cette déclaration, on fixe le max-height */
+	/* Ensemble des sous parties du menu */
+	#menuDeroulant ul {
+		position: absolute;
+		top: 0px; left: 110px; /* pour aligner les entete et les sous menus */
+		max-height:0em; /* pour cacher */	
+		margin: 0; padding: 0; /* pas de marges */
+		background: linear-gradient(#ddd, grey); /* degrade du background */
+		overflow: hidden; /* caché quand on a pas la souris dessus */
+		transition: 1s max-height 0.3s; /* transition lors de l'affichage */
+		border-radius: 0 8px 8px 0px; /* bords du bas arrondis */
+	}
+	/* ici on change la valeur de max-height au :hover */
+	#menuDeroulant > li:hover ul {
+		max-height: 10em; /* Ouverture lors du deroulage (+em est grand et + vitesse grande) */
+	}
+
+	/* Exportation de nouvelles polices */
+
+	@font-face {
+		font-family: 'Triforce';
+		src: url("./Polices/Triforce.ttf") format('truetype');
+	}

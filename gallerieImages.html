@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Programme : accueil.html
+Auteur : Sinan DAROUKH et Fabien SIMONET 
+Date : 08/09/2016
+Finalit&eacute; : Site web concernant le jeu Zelda-->
+
+<!-- PAGE D&apos;ACCUEIL -->
+
+	<head>
+	
+	 	<meta charset="utf-8">
+		<link rel="stylesheet" href="presentation.css" /> <!-- Pour tout le monde -->
+		<link rel="icon" href="./Images/favicon.ico"/>
+        <link rel="stylesheet" media="all and (max-width: 800px)" href="presentation_mini.css" />
+	 	<title>La Gazette d&apos;Hyrule</title>		
+		<style type ="text/css"> 
+		body {
+			background-image : url("./Images/Background/background7.png");
+			}
+		@media all and (max-width: 800px) {
+			body {
+				background-image : url("./Images/Background/backgroundmini1.jpg");
+				}
+		}
+	 	</style>
+	</head>
+	
+	<body>
+	
+		<header class="boite"> 
+			<img id="imageGazette" src="./Images/anim_marrante.gif" alt="image titre de la gazette"/><br/> 
+			<h1>La Gazette d&apos;Hyrule</h1>
+		</header>
+		
+		<div class="menu">
+			<ul id="menuDeroulant">
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="#">Articles</a>
+					<ul>
+						<li><a href="partie1Articles.html">Saga The Legend of Zelda</a></li>
+						<li><a href="partie2Articles.html">Le monde de Zelda</a></li>
+					</ul>
+				</li>
+				<li><a href="#">M&eacute;dias</a>
+					<ul>
+						<li><a href="gallerieImages.html">Photos</a></li>
+						<li><a href="videos.html">Vid&eacute;os</a></li>
+					</ul>
+				</li>
+				<li><a href="#">Contact</a>
+					<ul>
+						<li><a href="nouscontacter.html">Nous contacter</a></li>
+						<li><a href="reseauxSociaux.html">R&eacute;seaux sociaux</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		
+		<div class="blocCentral">					
+			<h2>Gallerie Images</h2>
+			
+			<div class="conteneurPhoto">
+				<h4>Personnages</h4>
+				
+				<a href="gallerieImagesGrandLink.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/link.jpg" />		
+						<figcaption>Link</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandZelda.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/princesseZelda.jpg" />
+						<figcaption>Princesse Zelda</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandChateauHyrule.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/hyrule_chateau.jpg" />				
+						<figcaption>Chateau d&apos;Hyrule</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandEmblemeHyrule.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/hyrule_embleme.png" />	
+						<figcaption>Emblème d&apos;Hyrule</figcaption>
+					</figure>
+				</a>
+			</div>
+			<br/><br/>
+			<div class="conteneurPhoto">
+				<h4>Captures d&apos;&eacute;cran</h4>
+				<a href="gallerieImagesGrandLinkBleu&Vert.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/zelimg.jpg" />
+						<figcaption>Link bleu et vert</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandTemple.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/zelimg1.jpg" />
+						<figcaption>Temple</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandCombat.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/zelimg2.jpg" />
+						<figcaption>Combat</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandStatue.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/zelimg3.jpg" />			
+						<figcaption>Statue</figcaption>
+					</figure>
+				</a>
+				
+			</div>
+			<br/><br/>
+			<div class="conteneurPhoto">
+				<h4>Fonds d&apos;&eacute;cran</h4>
+				
+				<a href="gallerieImagesGrandSkywardSword.html">
+					<figure>
+						<img class="imageGallerie" src="./Images/Background/background6.jpeg" />	
+						<figcaption>Skyward Sword</figcaption>
+					</figure>
+				</a>
+				
+				<a href="gallerieImagesGrandDessin.html">			
+					<figure>
+						<img class="imageGallerie" src="./Images/Background/background2.jpeg" />
+						<figcaption>Dessin</figcaption>
+					</figure>	
+				</a>
+			</div>
+			
+		</div> 	<br/> <br/>		
+		<div id="conteneurReseauxSociaux">
+				<div class="sousconteneur">
+					<a href="https://fr-fr.facebook.com/LegendofZeldaFrance/"> 
+						<img class="logoReseauxSociaux" src="./Images/facebook.png" alt="logo facebook"/>
+						<img class="logoReseauxSociauxEntier" src="./Images/facebookentier.jpg" alt="logo facebook entier"/>
+					</a>
+				</div> 
+
+			<div class="sousconteneur">
+				<a href="https://twitter.com/zeldauniverse?lang=fr">
+					<img class="logoReseauxSociaux" src="./Images/twitter.png" alt="logo twitter"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/twitterentier.png" alt="logo twitter entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://www.youtube.com/user/Nintendo">
+					<img class="logoReseauxSociaux" src="./Images/youtube.png" alt="logo youtube"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/youtubeentier.jpg" alt="logo youtube entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://plus.google.com/communities/113066832372633650130">
+					<img class="logoReseauxSociaux" src="./Images/googleplus.jpg" alt="logo google+"/>		
+					<img class="logoReseauxSociauxEntier" src="./Images/googleplusentier.jpg" alt="logo google+ entier"/>				
+				</a>
+			</div>
+		</div>
+		
+		<footer>
+			<img class="imageFooter" src="./Images/footer/footer4.png" alt="image du bas de page"/>
+			Site web r&eacute;alis&eacute; par Sinan DAROUKH et Fabien SIMONET : Groupe 3.
+			<img class="imageFooter" src="./Images/footer/footer3.png" alt="image du bas de page"/>
+		</footer>
+		<br/><br/>
+		
+	</body>
+	
+</html>

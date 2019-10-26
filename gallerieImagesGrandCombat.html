@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- Programme : accueil.html
+Auteur : Sinan DAROUKH et Fabien SIMONET 
+Date : 08/09/2016
+Finalité : Site web concernant le jeu Zelda-->
+
+<!-- PAGE D'ACCUEIL -->
+
+	<head>
+	
+	 	<meta charset="utf-8">
+		<link rel="stylesheet" href="presentation.css" media="screen"/> <!-- Pour tout le monde -->
+		<link rel="icon" href="./Images/favicon.ico"/>
+		<link rel="stylesheet" href="impression.css" media="print"/>
+        <link rel="stylesheet" media="screen and (max-width: 800px)" href="presentation_mini.css" />
+	 	<title>La Gazette d'Hyrule</title>		
+		<style type ="text/css"> 
+		body {
+			background-image : url("./Images/Background/background7.png");
+			}
+		@media all and (max-width: 800px) {
+			body {
+				background-image : url("./Images/Background/backgroundmini1.jpg");
+				}
+		}
+	 	</style>
+	</head>
+	
+	<body>
+		<br/>
+		<div class="blocCentral">					
+			<a class="retour" href="gallerieImages.html"> Retour à la gallerie </a> <br/><br/>
+			
+			<div class="conteneurPhoto">
+				<figure>
+					<img class="imageGrande" src="./Images/zelimg2.jpg" alt="grande image"/>		
+					<figcaption class="legendeGrandePhoto">Combat</figcaption>
+				</figure>
+			</div>
+			
+		</div> <br/> <br/>		
+		<div id="conteneurReseauxSociaux">
+				<div class="sousconteneur">
+					<a href="https://fr-fr.facebook.com/LegendofZeldaFrance/"> 
+						<img class="logoReseauxSociaux" src="./Images/facebook.png" alt="logo facebook"/>
+						<img class="logoReseauxSociauxEntier" src="./Images/facebookentier.jpg" alt="logo facebook entier"/>
+					</a>
+				</div> 
+
+			<div class="sousconteneur">
+				<a href="https://twitter.com/zeldauniverse?lang=fr">
+					<img class="logoReseauxSociaux" src="./Images/twitter.png" alt="logo twitter"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/twitterentier.png" alt="logo twitter entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://www.youtube.com/user/Nintendo">
+					<img class="logoReseauxSociaux" src="./Images/youtube.png" alt="logo youtube"/>
+					<img class="logoReseauxSociauxEntier" src="./Images/youtubeentier.jpg" alt="logo youtube entier"/>
+				</a>
+			</div>
+			<div class="sousconteneur">
+				<a href="https://plus.google.com/communities/113066832372633650130">
+					<img class="logoReseauxSociaux" src="./Images/googleplus.jpg" alt="logo google+"/>		
+					<img class="logoReseauxSociauxEntier" src="./Images/googleplusentier.jpg" alt="logo google+ entier"/>				
+				</a>
+			</div>
+		</div>
+		
+		<br/><br/>
+		
+	</body>
+	
+</html>
